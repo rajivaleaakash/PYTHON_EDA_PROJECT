@@ -3,6 +3,7 @@ from pathlib import Path
 import os
 
 def setup_logger(script_name):
+    """ Sets up dedicated logger for a specific script"""
     try:
         # create 'logs' directory if it doesn't exist
         log_dir = Path(os.getcwd())/"logs"
