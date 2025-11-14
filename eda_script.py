@@ -3,6 +3,7 @@ import numpy as np
 import sys
 import os
 from pathlib import Path
+from datetime import datetime
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -69,6 +70,34 @@ def restore_original_dtypes(df, dtype_map):
                 print(f"Could not restore dtype for '{col}' : {e}")
     return df
 
+
+def save_clean_df(df, name = "clean_merge_data"):
+    # Define directory path
+    save_dir = Path("clean_merge_dataset")
+    save_dir.mkdir(exist_ok=True)
+
+    # Generate timestamped filename
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    timestamped_file = save_dir/ f"{name}_{timestamp}.csv"
+
+    # Master file path (for cumulative append)
+    master_file = save_dir/ "Clean_Master_Data.csv"
+
+    # Save timestamped version
+    df.to_csv(timestamped_file, index=False)
+    print(f"Timestamped file created: {timestamped_file}")
+
+    # Handle master file
+    if master_file.exists():
+        print(f"start appending to existing master file: {master_file}")
+        existing_df = pd.read_csv(master_file)
+        combined_df = pd.concat([existing_df, df], ignore_index=True).drop_duplicates()
+        combined_df.to_csv(master_file, index=False)
+    else:
+        print(f"creating new master file: {master_file}")
+        df.to_csv(master_file, index=False)
+
+    print(f"Data successfully saved and versioned at: {timestamped_file}")
 
 
 def get_clean_dataframe(dataframes, df_names):
@@ -183,6 +212,7 @@ def main():
     print(final_df.head(5))
     print("Rows:",final_df.shape[0])
     print("Columns:",final_df.shape[1])
+    save_clean_df(final_df)
 
 if __name__ == "__main__":
     main()
