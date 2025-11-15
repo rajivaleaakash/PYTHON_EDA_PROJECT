@@ -1,0 +1,163 @@
+
+-------------------------------------------------- AUTOMATED EDA REPORT --------------------------------------------------
+Generated on: 2025-11-15 14:37:17
+Dataset Shape: 380,336 rows × 12 columns
+********************************************************************************
+
+-------------------------------------------------- KEY PERFORMANCE INDICATORS--------------------------------------------------📊 REVENUE METRICS:
+--------------------------------------------------------------------------------
+   • Total Customers                              : 380,336
+   • Total Premium Revenue (Rs)                   : ₹11,466,786,009.26
+   • Avg Premium (Rs)                             : ₹30,149.09
+   • Median Premium (Rs)                          : ₹31,656.00
+   • Potential Revenue - Interested (Rs)          : ₹1,445,942,372.47
+   • Avg Premium - Interested (Rs)                : ₹31,054.13
+
+🎯 CONVERSION METRICS:
+--------------------------------------------------------------------------------
+   • Overall Response Rate (%)                    : 12.24%
+   • Total Interested Customers                   : 46,562
+
+👥 CUSTOMER SEGMENTATION:
+--------------------------------------------------------------------------------
+   • Avg Customer Age                             : 38.82
+   • Median Customer Age                          : 36.00
+   • Previously Insured Rate (%)                  : 45.78%
+   • New Customer Rate (%)                        : 54.22%
+   • Avg Customer Vintage (days)                  : 154.35
+   • Vehicle Damage Rate (%)                      : 50.54%
+   • Driving License Holders (%)                  : 99.68%
+
+🏢 OPERATIONAL METRICS:
+--------------------------------------------------------------------------------
+   • Total Sales Channels                         : 155
+   • Most Active Channel                          : 152
+   • Total Regions                                : 53
+
+
+
+--------------------------------------------------SPECIFIC INSIGHTS--------------------------------------------------
+
+1. Gender-wise Average Annual Premium:
+--------------------------------------------------------------------------------
+   • Female         : ₹30,088.41
+   • Male           : ₹30,200.53
+
+
+2. Age-wise Average Annual Premium:
+--------------------------------------------------------------------------------
+   • 18-25          : ₹30,308.64
+   • 26-35          : ₹27,839.39
+   • 36-45          : ₹29,419.14
+   • 46-55          : ₹30,981.67
+   • 56-65          : ₹31,879.84
+   • 65+            : ₹33,358.97
+
+
+3. Gender Balance Analysis:
+--------------------------------------------------------------------------------
+   • Male           : 205,851 (54.12%)
+   • Female         : 174,485 (45.88%)
+
+   Balance Ratio: 0.85 (1.0 = perfectly balanced)
+   ⚠ Status: Data shows some imbalance between genders
+
+
+4. Vehicle Age-wise Average Annual Premium:
+--------------------------------------------------------------------------------
+   • 3              : ₹34,860.22
+   • 2              : ₹30,057.14
+   • 1              : ₹29,803.70
+
+
+5. Response Rate by Vehicle Damage History:
+--------------------------------------------------------------------------------
+   • No             : 0.52% (n=188,106 customers)
+   • Yes            : 23.71% (n=192,230 customers)
+
+
+6. Premium Distribution by Previous Insurance Status:
+--------------------------------------------------------------------------------
+   Previously Insured (No):
+      • Mean Premium        : ₹30,046.31
+      • Median Premium      : ₹32,261.00
+      • Std Deviation       : ₹16,451.76
+   Previously Insured (Yes):
+      • Mean Premium        : ₹30,270.82
+      • Median Premium      : ₹31,040.00
+      • Std Deviation       : ₹14,209.07
+
+7. Sales Channel Performance Analysis (Top 10 Channels):
+--------------------------------------------------------------------------------
+
+ Top 5 Channels by Response Rate:
+   ----------------------------------------------------------------------------
+   Channel      Response Rate      Customers       Avg Premium         
+   ----------------------------------------------------------------------------
+   163             30.37%             2,888     ₹   24,398.17
+   157             26.79%             6,667     ₹   13,852.71
+   154             24.59%             5,973     ₹   27,932.30
+   156             21.54%            10,638     ₹   11,230.06
+   26              19.92%            79,462     ₹   33,037.01
+
+ Top 5 Channels by Customer Volume:
+   ----------------------------------------------------------------------------
+   Channel      Customers          Response Rate   Avg Premium         
+   ----------------------------------------------------------------------------
+   152             134,393            2.86%    ₹   30,576.09
+   26               79,462           19.92%    ₹   33,037.01
+   124              73,727           18.89%    ₹   31,278.79
+   160              21,709            2.17%    ₹   25,376.26
+   156              10,638           21.54%    ₹   11,230.06
+
+ Top 5 Channels by Average Premium:
+   ----------------------------------------------------------------------------
+   Channel      Avg Premium          Customers       Response Rate  
+   ----------------------------------------------------------------------------
+   122          ₹   35,868.00          9,901       17.25%
+   26           ₹   33,037.01         79,462       19.92%
+   124          ₹   31,278.79         73,727       18.89%
+   152          ₹   30,576.09        134,393        2.86%
+   151          ₹   29,102.74          3,874        3.12%
+
+ Channel Performance Summary:
+   ----------------------------------------------------------------------------
+   • Best Converting Channel      : 163 (30.37% response rate)
+   • Highest Volume Channel       : 152 (134,393 customers)
+   • Highest Avg Premium Channel  : 122 (₹35,868.00)
+
+   • Total Active Channels (Top 10): 10
+   • Avg Response Rate Across Top 10: 16.75%
+   • Total Customers in Top 10     : 349,232
+   • Avg Premium Across Top 10     : ₹26,265.21
+
+
+
+-------------------------------------------------- VARIANCE SUMMARY --------------------------------------------------
+
+annual_premium [in Rs]     2.391920e+08
+vintage                    6.994001e+03
+sales_channel_code         2.935142e+03
+age                        2.404099e+02
+region_code                1.748687e+02
+vehicle_age                3.217920e-01
+previously_insured         2.482207e-01
+response                   1.074361e-01
+driving_licence_present    3.152996e-03
+dtype: float64
+
+
+-------------------------------------------------- CORRELATION WITH RESPONSE --------------------------------------------------
+
+response                   1.000000
+vehicle_age                0.221569
+age                        0.111092
+annual_premium [in Rs]     0.021857
+region_code                0.010440
+driving_licence_present    0.009039
+vintage                   -0.001085
+sales_channel_code        -0.138928
+previously_insured        -0.340680
+Name: response, dtype: float64
+
+                                                   END OF REPORT

@@ -20,3 +20,18 @@
 25-11-14 18:39:53 - [INFO] - eda_script - Creating new master file: clean_merge_dataset\clean_master_data.csv
 25-11-14 18:39:55 - [INFO] - eda_script - Clean dataset successfully saved.
 25-11-14 18:39:55 - [INFO] - eda_script - ----- EDA Script Execution Completed -----
+25-11-14 22:38:14 - [INFO] - eda_script - Starting to load CSV files from data directory...
+25-11-14 22:38:15 - [INFO] - eda_script - Loaded file: customer_details.csv | Shape: (381109, 8)
+25-11-14 22:38:15 - [INFO] - eda_script - Loaded file: customer_policy_details.csv | Shape: (381109, 5)
+25-11-14 22:38:15 - [INFO] - eda_script - Successfully loaded 2 dataframes.
+25-11-14 22:38:15 - [INFO] - eda_script - Starting data cleaning & merging pipeline...
+25-11-14 22:38:15 - [INFO] - eda_script - Columns renamed for dataframe: customer_details
+25-11-14 22:38:15 - [INFO] - eda_script - Columns renamed for dataframe: customer_policy_details
+25-11-14 22:38:15 - [INFO] - eda_script - Data merged successfully | Shape: (529718, 12)
+25-11-14 22:38:16 - [INFO] - eda_script - Running IQR outlier capping...
+25-11-14 22:38:16 - [INFO] - eda_script - [age] Q1=25.00, Q3=49.00, IQR=24.00, Lower=-11.00, Upper=85.00
+25-11-14 22:38:16 - [INFO] - eda_script - [annual_premium [in Rs]] Q1=24416.00, Q3=39392.25, IQR=14976.25, Lower=1951.62, Upper=61856.62
+25-11-14 22:38:16 - [INFO] - eda_script - [vintage] Q1=82.00, Q3=227.00, IQR=145.00, Lower=-135.50, Upper=444.50
+25-11-14 22:38:16 - [INFO] - eda_script - Restoring original column data types...
+25-11-14 22:38:16 - [INFO] - eda_script - Datatype restoration complete.
+25-11-14 22:38:16 - [INFO] - eda_script - Data cleaning completed successfully.

@@ -1,0 +1,54 @@
+25-11-15 13:16:16 - [INFO] - eda_insights - Removed customer_id from dataset
+25-11-15 13:16:16 - [INFO] - eda_insights - Loaded clean master dataset: clean_merge_dataset\clean_master_data.csv | Shape: (380336, 11)
+25-11-15 13:16:20 - [INFO] - eda_insights - Saved all sales channel performance plots separately
+25-11-15 13:34:38 - [INFO] - eda_insights - Removed customer_id from dataset
+25-11-15 13:34:38 - [INFO] - eda_insights - Loaded clean master dataset: clean_merge_dataset\clean_master_data.csv | Shape: (380336, 11)
+25-11-15 13:36:18 - [INFO] - eda_insights - Removed customer_id from dataset
+25-11-15 13:36:18 - [INFO] - eda_insights - Loaded clean master dataset: clean_merge_dataset\clean_master_data.csv | Shape: (380336, 11)
+25-11-15 13:38:39 - [INFO] - eda_insights - Removed customer_id from dataset
+25-11-15 13:38:39 - [INFO] - eda_insights - Loaded clean master dataset: clean_merge_dataset\clean_master_data.csv | Shape: (380336, 11)
+25-11-15 13:55:46 - [INFO] - eda_insights - Removed customer_id from dataset
+25-11-15 13:55:46 - [INFO] - eda_insights - Loaded clean master dataset: clean_merge_dataset\clean_master_data.csv | Shape: (380336, 11)
+25-11-15 13:57:41 - [INFO] - eda_insights - Removed customer_id from dataset
+25-11-15 13:57:41 - [INFO] - eda_insights - Loaded clean master dataset: clean_merge_dataset\clean_master_data.csv | Shape: (380336, 11)
+25-11-15 13:59:34 - [INFO] - eda_insights - Removed customer_id from dataset
+25-11-15 13:59:34 - [INFO] - eda_insights - Loaded clean master dataset: clean_merge_dataset\clean_master_data.csv | Shape: (380336, 11)
+25-11-15 14:00:21 - [INFO] - eda_insights - Removed customer_id from dataset
+25-11-15 14:00:21 - [INFO] - eda_insights - Loaded clean master dataset: clean_merge_dataset\clean_master_data.csv | Shape: (380336, 11)
+25-11-15 14:00:30 - [INFO] - eda_insights - Removed customer_id from dataset
+25-11-15 14:00:30 - [INFO] - eda_insights - Loaded clean master dataset: clean_merge_dataset\clean_master_data.csv | Shape: (380336, 11)
+25-11-15 14:07:39 - [INFO] - eda_insights - Removed customer_id from dataset
+25-11-15 14:07:39 - [INFO] - eda_insights - Loaded clean master dataset: clean_merge_dataset\clean_master_data.csv | Shape: (380336, 11)
+25-11-15 14:36:16 - [INFO] - eda_insights - Removed customer_id from dataset
+25-11-15 14:36:16 - [INFO] - eda_insights - Loaded clean master dataset: clean_merge_dataset\clean_master_data.csv | Shape: (380336, 11)
+25-11-15 14:36:16 - [INFO] - eda_insights - Starting EDA analysis...
+25-11-15 14:36:16 - [INFO] - eda_insights - Generating specific insights...
+25-11-15 14:36:19 - [INFO] - eda_insights - Saved gender-wise premium analysis
+25-11-15 14:36:19 - [INFO] - eda_insights - Saved age-wise premium analysis
+25-11-15 14:36:20 - [INFO] - eda_insights - Saved gender balance analysis
+25-11-15 14:36:21 - [INFO] - eda_insights - Saved vehicle age-wise premium analysis
+25-11-15 14:36:22 - [INFO] - eda_insights - Saved response rate by vehicle damage analysis
+25-11-15 14:36:24 - [INFO] - eda_insights - Saved premium by previous insurance analysis
+25-11-15 14:36:26 - [INFO] - eda_insights - Saved all sales channel performance plots separately
+25-11-15 14:36:32 - [INFO] - eda_insights - Saved distribution plot: eda_visuals\dist_age.png
+25-11-15 14:36:41 - [INFO] - eda_insights - Saved distribution plot: eda_visuals\dist_driving_licence_present.png
+25-11-15 14:36:46 - [INFO] - eda_insights - Saved distribution plot: eda_visuals\dist_region_code.png
+25-11-15 14:36:50 - [INFO] - eda_insights - Saved distribution plot: eda_visuals\dist_previously_insured.png
+25-11-15 14:36:55 - [INFO] - eda_insights - Saved distribution plot: eda_visuals\dist_vehicle_age.png
+25-11-15 14:37:00 - [INFO] - eda_insights - Saved distribution plot: eda_visuals\dist_annual_premium [in Rs].png
+25-11-15 14:37:04 - [INFO] - eda_insights - Saved distribution plot: eda_visuals\dist_sales_channel_code.png
+25-11-15 14:37:08 - [INFO] - eda_insights - Saved distribution plot: eda_visuals\dist_vintage.png
+25-11-15 14:37:15 - [INFO] - eda_insights - Saved distribution plot: eda_visuals\dist_response.png
+25-11-15 14:37:15 - [INFO] - eda_insights - Saved bar chart: eda_visuals\bar_age_group.png
+25-11-15 14:37:17 - [INFO] - eda_insights - Dashboard generated successfully.
+25-11-15 14:37:17 - [INFO] - eda_insights - KPI calculations complete.
+25-11-15 14:37:17 - [INFO] - eda_insights - Saved gender-wise premium analysis
+25-11-15 14:37:18 - [INFO] - eda_insights - Saved age-wise premium analysis
+25-11-15 14:37:19 - [INFO] - eda_insights - Saved gender balance analysis
+25-11-15 14:37:19 - [INFO] - eda_insights - Saved vehicle age-wise premium analysis
+25-11-15 14:37:20 - [INFO] - eda_insights - Saved response rate by vehicle damage analysis
+25-11-15 14:37:22 - [INFO] - eda_insights - Saved premium by previous insurance analysis
+25-11-15 14:37:24 - [INFO] - eda_insights - Saved all sales channel performance plots separately
+25-11-15 14:37:24 - [INFO] - eda_insights - Variance calculation completed.
+25-11-15 14:37:25 - [INFO] - eda_insights - EDA Report generated: eda_report\eda_report.txt
+25-11-15 14:37:25 - [INFO] - eda_insights - EDA Insights module completed.
