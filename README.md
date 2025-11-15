@@ -1,9 +1,5 @@
 # 🏥 Insurance Cross-Sell Prediction - EDA Project
 
-[![visual1](eda_visuals\bar_age_group.png)]
-[![visual2](dashboard\age_wise_premium.png)]
-[![visual3](dashboard\channel_customer_volume.png)]
-
 A comprehensive Exploratory Data Analysis (EDA) project for analyzing customer behavior and predicting cross-sell opportunities in the insurance domain. This project provides automated insights, visualizations, and actionable business intelligence for insurance sales optimization.
 
 ## 📋 Table of Contents
